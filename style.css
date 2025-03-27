@@ -98,6 +98,16 @@ body {
   color: #ddd;
 }
 
+footer {
+    text-align: center;
+    padding: 20px;
+}
+
+footer a {
+    color: gold;
+    margin-left: 10px;
+}
+
 @media (max-width: 600px) {
   .welcome-box {
     padding: 40px 20px;
