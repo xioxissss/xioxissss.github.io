@@ -10,7 +10,7 @@
 </head>
 <body>
 
-  <section class="welcome-section">
+  <section class="welcome-section" id="welcomeDiv">
     <div class="welcome-box">
       <h1>Welcome</h1>
       <h2>Are you a robot?</h2>
@@ -22,6 +22,9 @@
   </section>
 
   <main class="content-container">
+    <h5>
+        The Irresistible Appeal of Casino Hotels: Where Luxury Meets Nonstop Entertainment
+    </h5>
     <p>
         When it comes to upscale travel and exhilarating experiences, few destinations match the excitement and sophistication of casino hotels. These dynamic resorts seamlessly blend high-end accommodations, gourmet dining, and electrifying gaming, making them a top choice for travelers around the globe. Whether you’re a seasoned player or simply seeking a one-of-a-kind getaway, casino hotels deliver a rich variety of experiences tailored to every type of guest. Let’s dive into what makes these destinations so captivating.
       </p>
@@ -52,12 +55,46 @@
       <p>
         In the end, casino hotels offer so much more than just gaming. They are comprehensive, all-in-one destinations that combine opulence, excitement, and relaxation. Whether you’re looking to hit the jackpot, savor world-class cuisine, dance the night away, or simply unwind in style, a stay at a casino hotel promises an unforgettable escape. So pack your bags, embrace the thrill, and experience the magic of one of travel’s most iconic resort experiences.
       </p>
+
+
+
+      <h5>
+        Experience the Thrill of Brick and Mortar Casinos
+      </h5>
+      <p>
+        Our casino hotels go beyond offering just luxury and upscale amenities—they deliver the true essence of a classic brick-and-mortar casino experience. Step into the world of land-based gaming and feel the thrill of live table action, high-stakes blackjack, competitive poker tournaments, roulette spins, and the nostalgic chime of traditional slot machines. The lively ambiance—complete with the sound of chips, the buzz of the crowd, and the unmistakable energy in the air—offers an authenticity that online casinos simply can’t match.
+      </p>
+      <p>
+        Immerse yourself in a setting where old-school charm blends seamlessly with modern elegance. Our land-based casino resorts feature everything from exclusive VIP lounges and gourmet dining to live shows and lavish accommodations. Whether you’re placing your bet at a live blackjack table or watching the roulette wheel spin in anticipation, every moment is crafted to deliver the magic of in-person gaming.
+      </p>
+      <p>
+        With a strong focus on traditional casino experiences, we ensure every guest enjoys the full spectrum of what a physical casino resort has to offer. From cutting-edge electronic games to face-to-face dealer interactions and live tournaments, our properties embody the perfect mix of timeless casino atmosphere and world-class hospitality. It’s more than a getaway—it’s an unforgettable journey into the heart of high-stakes entertainment.
+      </p>
   </main>
 
   <footer>
     <a href="Privacypolicy.html">Privacy Policy</a>
     <a href="Termsandconditions.html">Terms & conditions</a>
+
+    <p>© 2025 Casino Hotels Central. All rights reserved.    </p>
   </footer>
+
+  <script>
+    // Function to capture query string and navigate with parameters
+    function redirectWithParams(baseUrl) {
+      const params = new URLSearchParams(window.location.search);
+      const finalUrl = params.toString() ? `${baseUrl}?${params.toString()}` : baseUrl;
+      window.location.href = finalUrl;
+    }
+    
+    // Set up the click listener on the entire welcome div
+    /*
+    document.getElementById('welcomeDiv').addEventListener('click', function () {
+      const destinationUrl = ''; // Change this to your preferred URL
+      redirectWithParams(destinationUrl);
+    });
+    */
+  </script>
 
 </body>
 </html>
