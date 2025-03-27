@@ -108,6 +108,15 @@ footer a {
     margin-left: 10px;
 }
 
+h5 {
+    font-size: 16pt;
+    margin: 20px 0;
+}
+
+h6 {
+    font-size: 14pt;
+}
+
 @media (max-width: 600px) {
   .welcome-box {
     padding: 40px 20px;
